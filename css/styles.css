@@ -39,6 +39,8 @@ body{
 }
 
 .gallery-content{
+    display: none;
+    
     background-color: rgb(255, 255, 255);
     border: 1px solid; /*El tipo de linea que cubre el cuadrado*/
     border-radius: 10px; /*El radio del cuadrado*/
@@ -72,7 +74,7 @@ body{
 }
 
 /*Container-prototip*/
-.container-page{
+.container-page-activity{
     width: 146px;
     height: 246px;
     background-color: white;
@@ -145,4 +147,68 @@ body{
     font-weight: 800;
     font-size: 11.52px;
     line-height: 144%;
+}
+/*Activity-end*/
+
+/*Explore*/
+
+.main-2{
+    background-color: grey;
+    justify-content: center;
+    display: flex;
+}
+
+.container-page-castle{
+    margin: 200px;
+    width: 309px;
+    height: 246px;
+    background-image: url(/images/castle.jpg);
+    background-size: cover;
+    background-color: white;
+}
+
+.words-castle{
+    padding: 138px 0 0 17px;
+    width: 274px;
+    height: 108px;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.45), transparent);
+}
+
+.words-castle h1{
+    width: 174px;
+    height: 71px;
+    font-size: 28.86px;
+    line-height: 100%;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+}
+
+.words-castle p{
+    margin: 0px;
+    width: 174px;
+    height: 71px;
+    font-size: 11px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+.button{
+    position: absolute;
+    top: 400px;
+    left: 290px;
+    background-color: #0000007b;
+    backdrop-filter: blur(4px);
+    border-radius: 20px;
+    width: 81px;
+    height: 34px;
+    text-align: center;
+    border: solid white;
+}
+
+.button h2{
+    font-size: 12.82px;
+    color: white;
+    padding-bottom: 20px;
+    font-family: Arial, Helvetica, sans-serif;
 }
