@@ -1,0 +1,148 @@
+/*Body*/
+
+body{
+    margin: 0px; /*Que no tenga ningun espacio en blanco por alrededor*/
+}
+
+/*Index*/
+/*Header*/
+.title{
+    padding: 34px 0 34px 0; /*Espacios por fuera*/
+    display: flex; /*Convertir el contenedor en uno flexible*/
+    justify-content: center; /*Para poner el contenido en el medio*/
+    background-color: black; /*Lo que cubre el header sera en negro*/
+    color: white; /*Convierte las palabras en blanco*/
+}
+
+.title h1{ /*Atributos que afectan solamente al h1*/
+    font-size: 44px;
+    font-weight: 300px;
+}
+
+/*Section*/
+.words{
+    display: flex;
+    justify-content: center; 
+}
+
+.words p{
+    font-size: 24px;
+    font-weight: 300px;
+}
+
+/*Gallery*/
+.gallery {
+    display: flex;
+    flex-wrap: wrap; /*Los bloques podran moverse hacia donde haya espacio si hacemos zoom*/
+    justify-content: center;
+    max-width: 2000px; /*La canditad maxima del tamaño*/
+}
+
+.gallery-content{
+    background-color: rgb(255, 255, 255);
+    border: 1px solid; /*El tipo de linea que cubre el cuadrado*/
+    border-radius: 10px; /*El radio del cuadrado*/
+    width: 290px; /*El tamaño del cuadrado*/
+    height: 290px; /*La altura del cuadrado*/
+    margin: 10px; /*Espacios*/
+    display: flex;
+    text-align: center; /*Textos en el medio*/
+    flex-direction: column; /*Ningun contenido pueda estar alado del otro, solo uno arriba del otro*/
+    justify-content: end; /*Hacer que esten al final */
+}
+
+.gallery-content img{
+    width: 260px;
+    height: 210px;
+    object-fit: contain;
+}
+
+.gallery-content p{
+    font-size: 20px;
+    font-weight: 300px;
+}
+/*End-index*/
+
+/*Card-1*/
+.main-1{
+    justify-content: center;
+    display: flex;
+    background-color: grey;
+    padding-top: 300px;
+}
+
+/*Container-prototip*/
+.container-page{
+    width: 146px;
+    height: 246px;
+    background-color: white;
+}
+
+/*Image-related*/
+.activity-photo img{
+    width: 146px;
+    height: 158px;
+}
+
+/*Words*/
+
+/*250*/
+.numbers-card-1{
+    position: absolute;
+    width: 26px;
+    height: 33px;
+    color: #1A2B49;
+}
+
+/*9.2*/
+.points-card-1{
+    position: absolute;
+    top: 500px;
+    width: 84px;
+    height: 18px;
+    justify-content: space-around;
+    display: flex;
+}
+
+/*Points*/
+.points{
+    width: 19px;
+    height: 18px;
+    font-size: 10px; 
+    border-radius: 2.56px;
+    background-color: #32A636;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*9.2-words*/
+.words-9-2 p{
+    font-weight: 300;
+    font-size: 10.24px;
+    font-family: sans-serif;
+    line-height: 100%;
+    color: #BDBDBD;
+    letter-spacing: -2%;
+}
+
+/*Snorkling*/
+
+.words-card-1{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 112px;
+    height: 35px;
+    margin: 0 0 20px 10px;
+}
+
+/*Snorkling-words*/
+.span-1{
+    font-weight: 300;
+    font-size: 11.52px;
+    line-height: 144%;
+}
+
+.span-2{
+    color: rgb(0, 179, 255);
+    font-weight: 800;
+    font-size: 11.52px;
+    line-height: 144%;
+}
